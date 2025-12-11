@@ -4,7 +4,7 @@ import "../styles/Categories.scss";
 import All from "../assets/images/All.svg";
 import Bones from "../assets/images/Bones.svg";
 import Hair from "../assets/images/Hair.svg";
-import Skin from "../assets/images/skin.svg";
+import Skin from "../assets/images/Skin.svg";
 import Digestion from "../assets/images/Digestion.svg";
 import Immunity from "../assets/images/Immunity.svg";
 import More from "../assets/images/More.svg";
