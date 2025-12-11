@@ -1,7 +1,7 @@
 import React, { useRef, useState, useEffect } from "react";
 import "../styles/ProductsCard.scss";
 import ProductsData from "../data/products.json";
-import StarImg from "../assets/images/star.svg";
+import StarImg from "../assets/images/Star.svg";
 import NextArrow from "../assets/images/Nexticon.png";
 
 export default function ProductCard({ cart, addToCart }) {
