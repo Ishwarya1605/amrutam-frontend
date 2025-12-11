@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Aishwarya Sharma",
+    "specialty": "Cardiologist",
+    "experience": 10,
+    "rating": 4.8
+  },
+  {
+    "id": 2,
+    "name": "Dr. Ravi Kumar",
+    "specialty": "Dermatologist",
+    "experience": 7,
+    "rating": 4.5
+  },
+  {
+    "id": 3,
+    "name": "Dr. Neha Singh",
+    "specialty": "Pediatrician",
+    "experience": 5,
+    "rating": 4.7
+  },
+  {
+    "id": 4,
+    "name": "Dr. Anil Verma",
+    "specialty": "Orthopedic",
+    "experience": 12,
+    "rating": 4.9
+  },
+  {
+    "id": 5,
+    "name": "Dr. Priya Rao",
+    "specialty": "Gynecologist",
+    "experience": 8,
+    "rating": 4.6
+  },
+  {
+    "id": 6,
+    "name": "Dr. Karthik Menon",
+    "specialty": "Neurologist",
+    "experience": 9,
+    "rating": 4.7
+  },
+  {
+    "id": 7,
+    "name": "Dr. Sneha Reddy",
+    "specialty": "ENT Specialist",
+    "experience": 6,
+    "rating": 4.4
+  }
+]

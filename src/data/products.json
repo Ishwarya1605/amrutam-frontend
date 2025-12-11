@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Amrutam Kuntal Care Hair Spa",
+    "desc": "Do-it-yourself Hair Treatment",
+    "price": 649.00,
+    "quantity": "200 ml",
+    "rating": 52,
+    "image": "Hairoil.png",
+    "addToCartImg": "Add.png"
+  },
+  {
+    "id": 2,
+    "name": "Amrutam Kuntal Care Herbal Shampoo",
+    "desc": "Healthy, Natural and Dynamic Hair",
+    "price": 649.00,
+    "quantity": "200 ml",
+    "rating": 52,
+    "image": "Shampoo.png",
+    "addToCartImg": "Add.png"
+  },
+  {
+    "id": 3,
+    "name": "Amrutam Nari Sondarya Malt",
+    "desc": "Complete Care For Women's Health And Beauty",
+    "price": 649.00,
+    "quantity": "200 ml",
+    "rating": 52,
+    "image": "Malt.png",
+    "addToCartImg": "Add.png"
+  },
+  {
+    "id": 4,
+    "name": "Amrutam Aloe Vera Gel",
+    "desc": "Soothes and Moisturizes Skin Naturally",
+    "price": 499.00,
+    "quantity": "150 ml",
+    "rating": 34,
+    "image": "Aloe.webp",
+    "addToCartImg": "Add.png"
+  }
+]

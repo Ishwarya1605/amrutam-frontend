@@ -1,0 +1,24 @@
+{
+  "name": "amrutam-consumer",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@netlify/vite-plugin": "^2.7.16",
+    "@vitejs/plugin-react": "^5.1.2",
+    "vite": "^7.2.4"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet-async": "^2.0.5",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^7.10.1",
+    "sass": "^1.94.2"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 1,
+  "name": "Citrak",
+  "botanical": "Plumbago zeylanica",
+  "sanskrit": "चित्रक",
+  "description": "Chitrak, also known as Ceylon Leadwort or Doctorbush, is a powerful Ayurvedic herb valued for its ability to improve digestion, reduce inflammation, and detoxify the body. It is great for boosting metabolism, enhancing skin health, and easing joint pain.",
+  "benefits": [
+    "Chitrak is valued because it helps lower blood sugar, boosts digestion, and reduces anxiety.",
+    "It also protects the skin and speeds up wound healing with its antioxidant and antimicrobial properties.",
+    "It is most used in Ayurvedic medicines for indigestion."
+  ],
+  "image": "Chitrak.png",
+  "prakriti": {
+    "vata": "balanced",
+    "kapha": "balanced",
+    "pitta": "unbalanced"
+  }
+}

@@ -1,0 +1,91 @@
+.doctors-page {
+    padding: 2rem;
+
+    .back-link {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        text-decoration: none;
+        color: #3A643B;
+        font-weight: bold;
+        margin-bottom: 1.5rem;
+        transition: color 0.2s;
+
+        &:hover {
+            color: #2d4f2b;
+        }
+
+        .arrow-icon {
+            font-size: 1.2rem;
+            transition: transform 0.2s;
+        }
+
+        &:hover .arrow-icon {
+            transform: translateX(-3px);
+        }
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: 2rem;
+        font-size: 2rem;
+        color: #333;
+    }
+
+    .doctors-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 1.5rem;
+    }
+
+    .doctor-card {
+        background: #fff;
+        border: 1px solid #e0e0e0;
+        border-radius: 12px;
+        padding: 1.5rem 1rem;
+        text-align: center;
+        text-decoration: none;
+        color: inherit;
+        transition: transform 0.2s, box-shadow 0.2s;
+
+        &:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+
+            .doctor-image-placeholder {
+                transform: scale(1.1);
+                box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            }
+        }
+
+        .doctor-image-placeholder {
+            width: 100px;
+            height: 100px;
+            margin: 0 auto 1rem;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            color: #fff;
+            background-color: #3A643B;
+            font-weight: bold;
+            user-select: none;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        h3 {
+            margin: 0.5rem 0;
+            font-size: 1.2rem;
+            color: #333;
+        }
+
+        .specialty,
+        .experience,
+        .rating {
+            margin: 0.2rem 0;
+            font-size: 0.9rem;
+            color: #555;
+        }
+    }
+}

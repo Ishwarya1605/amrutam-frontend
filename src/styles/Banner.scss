@@ -1,0 +1,106 @@
+$banner-height: 180px;
+$banner-bg: url("../assets/images/banner.png");
+$banner-title-color: #333448;
+$banner-title-font: 24px;
+$searchbar-bg: #fff;
+$searchbar-padding: 12px 15px;
+$searchbar-radius: 12px;
+$search-input-font: 16px;
+$search-gap: 10px;
+$bag-btn-bg: #fff;
+$bag-btn-radius: 12px;
+$bag-btn-padding: 12px 14px;
+
+.banner-container {
+  position: relative;
+  width: 100%;
+  height: $banner-height;
+  background: $banner-bg center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .banner-overlay {
+    position: absolute;
+    inset: 0;
+  }
+
+  .banner-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    width: 100%;
+    padding: 0 20px;
+
+    .banner-title {
+      color: $banner-title-color;
+      font-size: $banner-title-font;
+      margin-bottom: 20px;
+    }
+
+    .searchbar-wrapper {
+      width: 100%;
+      max-width: 600px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+
+      .searchbar {
+        flex: 1;
+        background: $searchbar-bg;
+        padding: $searchbar-padding;
+        border-radius: $searchbar-radius;
+        display: flex;
+        align-items: center;
+        gap: $search-gap;
+
+        .search-input {
+          flex: 1;
+          border: none;
+          outline: none;
+          font-size: $search-input-font;
+        }
+
+        .search-icon {
+          width: 20px;
+        }
+      }
+
+      .bag-btn {
+        background: $bag-btn-bg;
+        border: none;
+        border-radius: $bag-btn-radius;
+        padding: $bag-btn-padding;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+
+        .bag-icon {
+          width: 22px;
+          height: 22px;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+    .banner-title {
+      font-size: 28px;
+    }
+
+    .searchbar-wrapper {
+      flex-direction: row;
+    }
+
+    .searchbar {
+      padding: 10px 12px;
+    }
+
+    .bag-btn {
+      padding: 10px 12px;
+    }
+  }
+}
+
